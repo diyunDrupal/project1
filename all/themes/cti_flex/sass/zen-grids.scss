@@ -1,0 +1,162 @@
+@import "zen";// Import Zen Grids with this statement.
+@import "zen/background";
+
+
+$border-color: #E0E0E0;
+
+@mixin border() {
+	border: 1px solid $border-color;
+}
+@mixin border-bottom() {
+	border-bottom: 1px solid $border-color;
+}
+
+@mixin zen-grids-row() {
+	@include zen-clear();
+	@include zen-grid-container();
+}
+
+.view-container, .zen-grid-container {
+	@include zen-grid-container();
+}
+
+.view-slide-view {
+	padding:2px;
+	@include border();
+}
+
+// home page
+$zen-column-count: 100; // Set the total number of columns in the grid.
+$zen-float-direction: right;
+
+.home-block-title {
+		font-size: 1.5em;
+		line-height: 2em;
+		margin-top: 0em;
+		margin-bottom: 0em;
+		background: url(/drupal/sites/all/themes/cti_flex/images/color-schemes/blue_nav_bg.gif) 0px no-repeat #F3F3F3;
+		padding-left: 6px;
+}
+
+@mixin home-block() {
+	margin-bottom: zen-half-gutter();
+	@include zen-nested-container();
+}
+
+.home-top-right {
+	@include zen-grid-item(39, 1, right);
+	@include home-block();
+	@include border();
+	@include zen-clear();
+}
+
+.home-top-left {
+	@include zen-grid-item(60, 1, left);
+	@include home-block();
+}
+
+.home-bottom-right {
+	@include zen-grid-item(79, 1, right);
+	@include home-block();
+	@include border();
+	@include zen-clear();
+	margin-left:10px;
+}
+.home-bottom-left1 {
+	@include zen-grid-item(20, 1, left);
+	@include border();
+	@include home-block();
+}
+.home-bottom-left2 {
+	@include zen-grid-item(20, 1, left);
+	@include zen-clear(left);
+	@include border();
+	@include home-block();
+	h4, h5, h6 {
+		padding-left: zen-half-gutter();
+		padding-right: zen-half-gutter();
+	}
+}
+
+// views
+$zen-float-direction: left;
+
+.zengshu-row, .news-row{
+	@include border-bottom();
+	@include zen-grids-row();
+}
+
+.news-row {
+	margin-top: 2px;
+	margin-bottom: 1px;
+	padding-left: zen-half-gutter();
+	padding-right: zen-half-gutter();
+}
+
+.zengshu-title {
+	@include zen-grid-item(25, 1);
+	margin-top: zen-half-gutter();
+	margin-bottom: zen-half-gutter();
+}
+
+.zengshu-body {
+	@include zen-grid-item(75, 1, right);
+	margin-top: zen-half-gutter();
+	margin-bottom: zen-half-gutter();
+}
+
+.more-link {
+	@include zen-grid-item(100, 1);
+	@include zen-clear();
+	text-align:right;
+}
+
+.news-title {
+	@include zen-grid-item(80, 1);
+	@include zen-nested-container();
+	@include zen-clear();
+	margin: 0px;
+}
+
+.news-date {
+	@include zen-grid-item(20, 1, right);
+	@include zen-nested-container();
+	text-align: right;
+}
+
+ul.quicktabs-tabs.quicktabs-style-arrows {
+	margin-bottom: zen-half-gutter()/2;
+}
+
+// view database
+.views-database {
+	.views-row-odd {
+		@include zen-grid-item(50, 1, left);
+		@include zen-clear();
+		@include zen-nested-container();
+		padding-top: zen-half-gutter();
+	}
+	.views-row-even {
+		@include zen-grid-item(50, 1, right);
+		@include zen-nested-container();
+		padding-top: zen-half-gutter();
+	}
+}
+
+.database-image {
+		@include zen-grid-item(42, 1, left);
+}
+
+.database-title {
+		@include zen-grid-item(58, 1, right);
+		margin: 0px;
+		margin-bottom: zen-half-gutter();
+}
+.database-body {
+		@include zen-grid-item(58, 1, right);
+		@include zen-clear(right);
+		font-size: 14px;
+		p {
+			margin: 0px;
+		}
+}

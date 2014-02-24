@@ -1,0 +1,57 @@
+
+.panel-front { 
+/*  overflow: hidden;  */
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.panel-front .panel-col-top-left{
+  float: left;
+  width: 60%; 
+  
+}
+* html .panel-front .panel-col-top-left{
+  width: 59.9%; 
+}
+
+.panel-front .panel-col-top-left .inside {
+  margin: 0 .5em 1em 0;
+}
+
+.panel-front .panel-col-top-right{
+  float: left;
+  width: 39.9%; 
+  
+}
+.panel-front .panel-col-top-right .inside {
+  margin: 0 .5em 1em 0;
+}
+
+.panel-front .panel-col-first { 
+  float: left; 
+  width: 20%; 
+}
+* html .panel-front .panel-col-first {
+  width: 19.9%;
+}
+
+.panel-front .panel-col-first .inside { 
+  margin: 0 .5em 1em 0;
+}
+
+.panel-front .panel-col-last { 
+  float: left; 
+  width: 79.9%; 
+}
+
+.panel-front .panel-col-last .inside { 
+  margin: 0 0 1em .5em;
+}
+
+.panel-front .panel-separator {
+  margin: 0 0 1em 0;
+}
+
+.panel-front .center-wrapper{
+  clear: both;
+}
