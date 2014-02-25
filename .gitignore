@@ -1,1 +1,5 @@
 *sass-cache*
+*.js.gz
+*.css.gz
+default/files/css/*
+default/files/js/*
