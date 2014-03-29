@@ -36,7 +36,7 @@
       <?php print my_show_full_block('menu_block', '3'); ?>
     </div>
     <div class="col-xs-3">
-      <?php print my_show_full_block('views', 'footer_tags-block_1'); ?>
+      <?php print my_show_full_block('views', 'footer_tags_view-block'); ?>
     </div>
     <div class="col-xs-3">
       <?php print my_show_full_block('webform', 'client-block-707'); ?>

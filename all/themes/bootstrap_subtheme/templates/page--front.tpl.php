@@ -164,7 +164,7 @@
       <br>
       <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
-          <?php print my_show_view('front_product_recommention'); ?>
+          <?php print my_show_block('views', 'front_product_recommention-block_1'); ?>
         </div>
       </div>
 
