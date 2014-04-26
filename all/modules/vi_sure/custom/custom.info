@@ -1,0 +1,4 @@
+name = vi_sure_custom
+description = Custom module
+core = 7.x
+package = vi_sure

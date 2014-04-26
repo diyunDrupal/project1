@@ -1,0 +1,283 @@
+.wrapper{
+
+height: 35px;
+}
+.menu-bg {
+
+height: 98px;
+}
+.fullwidthbanner-container {
+
+
+top: -97px !important;
+}
+
+.tb-megamenu .nav-collapse.collapse {
+
+z-index: 10;
+float: right;
+}
+
+#block-tb-megamenu-main-menu{
+	margin-top: 5px;
+}
+
+.tb-megamenu .btn-navbar {
+float: right;
+z-index: 1;
+}
+
+.tb-megamenu input[type="submit"]{
+	width: 34px;
+}
+
+.contextual-links-region {
+
+ position: static  !important; 
+}
+
+
+.top_contact_info .tci_list li.country_select select {
+
+margin: 2px 10px 0px 0px;
+background-color: #fff;color: #000;
+}
+
+
+
+#block-lang-dropdown-language img{
+
+	margin: 6px 0 0 0;
+	
+	width: auto;
+
+
+}
+
+.top_contact_info .tci_list li.country_select {
+
+width: 110px;
+}
+
+
+
+.tp-bannertimer{
+	width: 0px !important;
+}
+
+.features_sec04 {
+margin-top: -3px;
+background: #fff;
+}
+
+.fresh_projects_list section.cheapest .small-group .additionnal b:hover{
+	cursor:pointer;
+}
+
+
+.jcarousel-skin-tango2 .field-item .even p{
+font-family: "Microsoft yahei","微软雅黑","Tahoma","Verdana","Arial",'Open Sans', sans-serif;
+font-weight: normal;
+color: #393a3b;
+font-size: 16px;
+line-height: 24px;
+margin: 20px 10px;
+}
+
+.one_fourth .region-footer-thirdcolumn a{
+	padding: 3px 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	height: 30px;
+	cursor: pointer;
+	color: #fff !important;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6) !important;
+	font-size: 15px;
+	line-height: 30px !important;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: -1px;
+	background: url(../images/gradient/g30.png) repeat-x top;
+	text-decoration: none;
+text-align: center;
+display: inline-block;
+position: relative;
+outline: none;
+overflow: hidden;
+border: rgba(0, 0, 0, .2) 1px solid;
+border-bottom: rgba(0, 0, 0, .4) 1px solid;
+text-transform: uppercase;
+}
+
+.one_fourth .region-footer-thirdcolumn a:hover,
+.one_fourth .region-footer-fourthcolumn .webform-client-form input.form-submit:hover{
+		background: -moz-linear-gradient(
+		center top,
+		rgba(255, 255, 255, .2) 0%,
+		rgba(255, 255, 255, .1) 100%
+	);/* FF3.6 */
+	background: -webkit-gradient(
+		linear,
+		center bottom,
+		center top,
+		from(rgba(255, 255, 255, .1)),
+		to(rgba(255, 255, 255, .2))
+	);/* Saf4+, Chrome */
+	}
+
+.one_fourth .region-footer-fourthcolumn .webform-client-form input{
+	width: 90%;
+}
+
+.one_fourth .region-footer-fourthcolumn .webform-client-form input.form-submit{
+	width: 60px;
+	background: url(../images/gradient/g30.png) repeat-x top;
+	padding: 3px 10px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+height: 40px;
+cursor: pointer;
+color: #fff !important;
+text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6) !important;
+font-size: 15px;
+line-height: 30px !important;
+font-family: arial, sans-serif;
+font-weight: bold;
+letter-spacing: -1px;
+text-indent: 0;
+}
+
+
+/*--------------------------tb-megamenu-menu------------------------------*/
+/*--------------------------tb-megamenu-menu------------------------------*/
+/*--------------------------tb-megamenu-menu------------------------------*/
+/*--------------------------tb-megamenu-menu------------------------------*/
+
+#block-tb-megamenu-menu-product-catalog-menu .tb-megamenu .nav > li{
+	width: 100%
+}
+
+#block-tb-megamenu-menu-product-catalog-menu .tb-megamenu .mega > .mega-dropdown-menu {
+
+display: block;
+position: relative;
+width: 99.5%;
+
+border-bottom: none;
+}
+
+.tb-megamenu {
+background-color: transparent;
+}
+
+#block-tb-megamenu-menu-product-catalog-menu .tb-megamenu .nav > li > a {
+border-right: none;
+background-color: #E4E4E4;
+
+border: 1px solid rgba(0,0,0,0.2);
+
+border-top: none;
+
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+-moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+}
+
+
+#block-tb-megamenu-menu-product-catalog-menu .tb-megamenu .nav > li > a {
+
+padding: 10px 20px;color: #393a3b;
+
+}
+
+#block-tb-megamenu-menu-product-catalog-menu  .tb-megamenu .mega-nav > li a, .tb-megamenu .dropdown-menu .mega-nav > li a {
+padding: 0px 0;
+}
+
+#block-tb-megamenu-menu-product-catalog-menu  .tb-megamenu .row-fluid + .row-fluid {
+padding-top: 0px;
+
+}
+
+
+#block-tb-megamenu-menu-product-catalog-menu  .tb-megamenu .span12.mega-col-nav .mega-inner {
+padding: 5px 30px;
+}
+
+
+/*--------------------------nice-menu------------------------------*/
+/*--------------------------nice-menu------------------------------*/
+/*--------------------------nice-menu------------------------------*/
+/*--------------------------nice-menu------------------------------*/
+#block-nice-menus-1 ul.nice-menu-down {
+
+margin-bottom: 20px;
+}
+#block-nice-menus-1 .menuparent {
+width: 100%;
+border-right: none;
+background-color: #E4E4E4;
+border: 1px solid rgba(0,0,0,0.2);
+border-top: none;
+border-bottom: none;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+-moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+background:none;
+}
+
+#block-nice-menus-1 .menuparent {
+background: #eee url("../images/arrow-down.png") 80% center no-repeat;
+}
+
+#block-nice-menus-1 .menuparent a{
+	padding: 10px 20px;font-weight: bold;font-size: 14px;box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px 0px;
+}
+
+
+#block-nice-menus-1 .menuparent  ul li a{color: #333;
+	padding: 5px 30px;background-color: #fff;font-weight: normal;font-size: 12px;
+}
+
+#block-nice-menus-1 .menuparent  ul li a:hover,
+#block-nice-menus-1 .menuparent a:hover,
+#block-nice-menus-1 .menuparent a.active,
+#block-nice-menus-1 .menuparent  ul li a.active
+{
+	color: #e54e4b;
+}
+
+#block-nice-menus-1 .menuparent  ul li a:hover,
+#block-nice-menus-1 .menuparent a:hover
+{
+	padding-left: 40px;
+}
+
+#block-nice-menus-1 .menuparent ul{
+	display: block !important; visibility: visible !important;
+	position: relative !important;
+	top: 0;
+	width: 100%
+}
+#block-nice-menus-1 .menuparent ul li{
+border: 1px solid #ddd;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+
+	width: 100%
+}

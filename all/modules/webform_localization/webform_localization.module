@@ -284,6 +284,9 @@ function webform_localization_webform_submission_insert($node, $submission) {
  * Implements hook_webform_submission_load().
  */
 function webform_localization_webform_submission_load(&$submissions) {
+  if(empty($submissions)) {
+      return;
+  }
   $query = db_select('webform_submissions', 's');
   $query->fields('s', array('language', 'sid'));
   $query->condition('s.sid', array_keys($submissions), 'IN');

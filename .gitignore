@@ -3,3 +3,6 @@
 *.css.gz
 default/files/css/*
 default/files/js/*
+tmp/
+temp_php/
+*.psd

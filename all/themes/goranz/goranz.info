@@ -1,0 +1,106 @@
+name = goranz
+description = goranz, 作者： <a href="http://vi-sure.com/">唯秀设计</a>.
+core = 7.x
+
+
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/icons.css
+stylesheets[all][] = css/drupal-style.css
+stylesheets[all][] = css/font-awesome/css/font-awesome.min.css
+stylesheets[all][] = css/responsive-leyouts.css
+stylesheets[all][] = css/colors/blue.css
+
+stylesheets[all][] = js/accordion/accordion.css
+
+stylesheets[all][] = js/jcarousel/skin.css
+stylesheets[all][] = js/jcarousel/skin2.css
+
+
+stylesheets[all][] = js/revolutionslider/css/fullwidth.css
+stylesheets[all][] = js/revolutionslider/rs-plugin/css/settings.css
+
+stylesheets[all][] = js/sticky-menu/core.css
+
+
+
+;stylesheets[all][] = js/tabs/tabs.css
+stylesheets[all][] = js/testimonials/fadeeffect.css
+
+
+scripts[] = js/tabs/tabs.js
+
+;scripts[] = js/sticky-menu/core.js
+
+
+
+
+;features[] = logo
+;features[] = comment_user_picture
+;features[] = comment_user_verification
+;features[] = favicon
+;features[] = main_menu
+;features[] = secondary_menu
+
+
+regions[lang_menu] = Language menu
+regions[main_menu] = Main menu
+
+regions[noslider] = noSlider
+regions[navigation] = navigation
+regions[help] = Help
+regions[header] = Header
+regions[slider] = Slider
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+regions[featured] = Featured
+
+regions[home_solutions] = Home solutions
+regions[home_services] = Home services
+regions[home_news] = Home news
+regions[our_clients] = Our Clients
+regions[content] = Content
+
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+;regions[footer] = Footer
+
+;social links settings
+
+settings[twitter_url] = #
+settings[facebook_url] = #
+settings[pintrest_url] = #
+settings[rss_url] = #
+settings[gplus_url] = #
+
+;header contact info settings
+settings[header_contact_email] = contact@company.com
+settings[header_contact_phone] = + 111 111 111
+
+;footer copyright message 
+settings[footer_copyright_message] =  <a href="http://www.vi-sure.com" target="_blank">唯秀设计</a> © 2012 &nbsp; | &nbsp; <a href="http://www.vi-sure.com" target="_blank">唯秀设计</a>
+
+;porfolio
+settings[default_portfolio] = 4c
+settings[default_nodes_portfolio] = 12
+
+settings[contact_form_description] = <h2 class="title"><span>Contact Form</span></h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum elementum arcu, at facilisis leo pretium eget. Nulla lacus risus, aliquam id faucibus sit amet, imperdiet vitae quam.</p>
+
+settings[menu_style] = dark
+settings[menu_font] = Open Sans
+settings[button_font] = Open Sans
+settings[menu_color] = #0AD1E5
+settings[menu_font_size] = 15px
+settings[main_color] = #0AD1E5
+settings[title_font] = Open Sans
+settings[body_font] = Open Sans
+settings[wrapper_style] = boxed
+settings[bg_image] = main_bgr.png
+settings[bg_color] = #F6F6F6
